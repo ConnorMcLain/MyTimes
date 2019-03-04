@@ -50,3 +50,59 @@ nav span {
   display: inline-block;
   padding: 20px 10px;
 }
+
+a {
+  color: black;
+}
+
+/*Content Section*/
+
+.content {
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+/*Left Column*/
+
+.large {
+  width: 630px;
+}
+
+/*Left column- 1 -Lead Story */
+
+.lead-story .image-content {
+  background-image: url(../Images/img-story-main.png);
+  width: 630px;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
+}
+
+.lead-story .image-content span {
+  margin-left: 20px;
+}
+
+.image-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin-top: 15px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.narrative {
+  margin-top: 16px;
+}
